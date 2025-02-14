@@ -9,6 +9,6 @@ urlpatterns=[
     
     
     path("members/<int:pk>/", member_detail, name="member_detail"),
-    path("", index, name="index")
+    path("", index)
     
 ]
